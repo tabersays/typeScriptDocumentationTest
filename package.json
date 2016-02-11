@@ -1,0 +1,11 @@
+{
+  "name": "test-for-documentation",
+  "version": "0.0.1",
+  "dependencies": {
+    "typedoc": "^0.3.12",
+    "typescript": "^1.7.5"
+  },
+  "scripts":{
+	  "doc": "typedoc --out docs project --module amd --target ES6"
+  }
+}
